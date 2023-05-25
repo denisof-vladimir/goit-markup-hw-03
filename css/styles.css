@@ -100,8 +100,10 @@ justify-content: center;
     font-size: 18px;
     line-height: 1.17;
     /* margin: 26px 36px 26px 156px; */
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* margin-right: 156px */
+    /* 76 */
     margin-left: 156px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -119,8 +121,8 @@ justify-content: center;
         text-transform: uppercase;
         color: var(--portfolio-filter-color);
     background-color: var(--background-color-body);
-    
-    
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .main-return-index:hover,
 .main-return-index:focus {
@@ -177,7 +179,7 @@ justify-content: center;
     /* flex-direction: column; */
     text-align: center; 
     letter-spacing: 0.02em;
-    width: 696px;
+    width: 496px;
     /* padding-top: 188px; */
    /* justify-content: center; */
     color: var(--title-color);
@@ -194,7 +196,8 @@ justify-content: center;
         color: var(--title-color);
         background-color: var(--portfolio-filter-color);
         cursor: pointer;
-        display: flex;
+        display: block;
+        /* display: flex; */
 /* flex-direction: column; */
 /* padding: 16px 32px 16px 32 px; */
     align-items: center;
@@ -203,12 +206,13 @@ justify-content: center;
     /* gap: 10px; */
 
     /* position: absolute; */
-    min-width: 160px;
+    min-width: 169px;
+    
     height: 56px;
     /* left: 636px; */
     /* top: 428px; */
 
-    
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -220,12 +224,17 @@ justify-content: center;
     background: #E5E5E5;  
     padding-top: 120px;
 }
+.h-two-hidden{
+    content-visibility: hidden;
+}
 .main-h-second {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    flex-basis: calc((100% - 72px) / 4));
+    margin-bottom: 8px;
     /* padding-top: 120px; */
 }
 .main-p-second {
@@ -235,8 +244,10 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: #434455; 
     /* padding-top: 8px; */
-    width: 264px;
-    margin-top: 8px;
+    /* width: 264px; */
+    flex-basis: calc((100% - 72px) / 4));
+ 
+    /* margin-top: 8px; */
  }
 .main-section-third{
     background-color: #E5E5E5;
@@ -257,7 +268,7 @@ justify-content: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    
+    margin-bottom: 72px;
 }
 
 .main-fio {
@@ -268,7 +279,8 @@ justify-content: center;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
+    /* margin-top: 32px; */
+    margin-bottom: 8px;
 }
 .job-title {
     font-weight: 400;
@@ -277,15 +289,20 @@ justify-content: center;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     padding-bottom: 32px;
     /* border-bottom: 152px; */
 }
+.fio-job {
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 16px;
+}
 .footer-class{
-    padding-top: 102px;
+    padding-top: 100px;
     padding-left: 156px;
     padding-bottom: 100px;
     width: 1440px;
+    display: inline-block;
     outline: 2px solid red;
     background-color: var(--background-color-body);
 }
@@ -350,11 +367,19 @@ justify-content: center;
     margin-left: 8px;
 } 
 .main-img{
-    margin-top: 72px;  
+    /* margin-top: 72px; */
+    width: calc((100% - 48px) / 3);
+}
+.main-img-team {
+    /* margin-top: 72px; */
+    width: calc((100% - 72px) / 4);
 }
 .container {
     /* position: absolute; */
     width: 1440px;
+    padding: 0 15px;
+    box-sizing: content-box;
+    display: flex;
     /* height: 72px; */
   
     /* padding-left : 156 px; */
@@ -362,7 +387,7 @@ justify-content: center;
     margin: 0 auto;
     /* left: 0px; */
     /* top: 0px; */
-    outline: 2px solid red;
+    outline: 2px solid #e7e9fc;
     /* display: flex; */
     /* justify-content: start; */
     }
@@ -373,8 +398,8 @@ justify-content: center;
     flex-direction: column;
     padding-left: 156 px;
     padding-right: 156 px;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     align-items: center;
     /* justify-content: center; */
 }
