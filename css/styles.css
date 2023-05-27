@@ -39,7 +39,8 @@ img{display: block;}
     align-items: center;
     gap: 40px;
     justify-content: space-between;
-    border-bottom: 1px solid var(--color-border-portfolio);
+    /* border-bottom: 1px solid var(--color-border-portfolio); */
+    border-bottom: 1px solid #e7e9fc
 }
 .flex-container-first{
     box-sizing: content-box;
@@ -163,7 +164,7 @@ img{display: block;}
  
 }
 .main-section-first{
-    padding: 188px 0;
+    /* padding: 188px 0; */
     background-color: var(--background-color-body);
 }
 .main-h-first {
@@ -352,7 +353,7 @@ img{display: block;}
 .container-second {
     width: 1440px;
     display: flex;
-    padding: 120px 0;
+    /* padding: 120px 0; */
     flex-direction: row;
     margin-left: 156 px;
     margin-right: 156 px;
