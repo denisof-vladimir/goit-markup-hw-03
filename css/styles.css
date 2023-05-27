@@ -391,6 +391,10 @@ img{display: block;}
 .header-container{
     width:1158px ;
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
+        box-sizing: content-box;
+        margin: 0 auto;
+        outline: 2px solid #e7e9fc;
 }
 .flex-container-menu-portfolio{
     width: 1440px;
