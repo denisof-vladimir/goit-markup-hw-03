@@ -61,11 +61,12 @@ img{display: block;}
     border-top: none;
 }
 .portfolio-li{
-    flex-basis: calc((100% - 48x) / 3);
- 
+    /* flex-basis: calc((100% - 48x) / 3); */
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-list{
     padding: 32px 16px;
+
     border: 1px solid var(--color-border-portfolio);
     border-top: none;
 }
