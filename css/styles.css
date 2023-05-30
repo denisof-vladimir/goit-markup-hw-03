@@ -341,15 +341,6 @@ img{display: block;}
 .main-img-team {
      flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.header-container {
-    /* width: 1158px; */
-    /* border-bottom: 1px solid #e7e9fc; */
-    /* padding: 0 15px; */
-    /* box-sizing: content-box; */
-    /* margin: 0 auto; */
-    /* outline: 2px solid #e7e9fc; */
-
-}
 .header-class{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -402,7 +393,7 @@ img{display: block;}
 .title-hid{}
 
 .visually-hidden {
-    /* position: absolute; */
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
