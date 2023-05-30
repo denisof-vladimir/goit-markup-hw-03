@@ -373,7 +373,7 @@ img{display: block;}
     outline: 2px solid red;
     gap: 24px;
     
-    /* flex-basis: calc((100% - 72px) / 4); */
+    flex-basis: calc((100% - 72px) / 4);
 }
 .container-third{
     /* width: 1440px; */
