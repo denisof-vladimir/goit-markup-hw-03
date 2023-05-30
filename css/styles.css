@@ -379,8 +379,8 @@ img{display: block;}
     display: flex;
     padding-bottom: 120px;
     flex-direction: row;
-    margin-left: 156 px;
-    margin-right: 156 px;
+    /* margin-left: 156 px; */
+    /* margin-right: 156 px; */
     align-items: center;
     outline: 2px solid red;
     margin: 0 auto;
@@ -406,20 +406,22 @@ img{display: block;}
 .flex-container-menu-portfolio{
     width: 1158px;
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
-    margin-left: 427 px;
-    margin-right: 427 px;
     align-items: center;
     outline: 2px solid red;
     margin: 0 auto;
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
+    margin-left: 427 px;
+        margin-right: 427 px;
 }
 .section-portfolio{
+    /* width: 1158px; */
     padding-top: 96px;
     padding-bottom: 120px;
-    width: 1440px;
+    
 }
 .class-team-img{
     flex-basis: calc((100% - 72px) / 4);
