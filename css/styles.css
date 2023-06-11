@@ -36,14 +36,19 @@ img{display: block;}
  .main-menu:focus {
     color: var(--color-focus-blu);
 }
-.nav-class {}
+.nav-class {
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    justify-content: space-between;
+}
 
 .flex-container{
     display: flex;
     align-items: center;
     gap: 40px;
-    justify-content: space-between;
-}
+    /* justify-content: space-between; */
+} 
 .flex-container-first{
     box-sizing: content-box;
     display: flex;
@@ -60,7 +65,8 @@ img{display: block;}
     align-items: center;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 72px;
+    margin-top: 72px;
+    /* margin-bottom: 72px; */
     border-top: none;
 }
 .portfolio-li{
@@ -69,16 +75,14 @@ img{display: block;}
 }
 .portfolio-list{
     padding: 32px 16px;
-
+    /* padding: 0px 16px; */
     border: 1px solid var(--color-border-portfolio);
     border-top: none;
 }
 .flex-container-menu-portfolio{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 24px;
-    margin-bottom: 72px;
-    padding-top: 96px;
 }   
 .flex-container-third {
     display: flex;
@@ -180,7 +184,7 @@ img{display: block;}
     background-color: var(--portfolio-filter-color);
     cursor: pointer;
     display: block;
-
+margin: auto;
     margin-top: 48px;
     align-items: flex-start;
     padding: 12px 24px;
@@ -278,15 +282,15 @@ img{display: block;}
     background-color: var(--portfolio-filter-background);
     color:var(--portfolio-filter-color);
     cursor: pointer;
-    display: flex;
-    box-sizing: border-box; 
+    /* display: flex; */
+    /* box-sizing: border-box;  */
     /* align-items: center; */
-    gap: 24px;
+    /* gap: 24px; */
     /* min-width: 116px; */
     /* height: 48x; */
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
@@ -304,9 +308,9 @@ img{display: block;}
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--background-color-body);
-        margin-top: 32px;
+        /* margin-top: 32px; */
         margin-bottom: 8px;
-        margin-left: 8px;
+        /* margin-left: 8px; */
         /* background-color: var(--portfolio-filter-background); */
 }
 .portfolio-p{
@@ -314,7 +318,7 @@ img{display: block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-main-menu);
-    margin-left: 8px;
+    /* margin-left: 8px; */
 } 
 .main-img{
     display: block; 
@@ -388,7 +392,7 @@ img{display: block;}
 .section-portfolio{
     /* width: 1158px; */
     padding-top: 96px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
      
 }
 .class-team-img{
