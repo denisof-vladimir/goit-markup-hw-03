@@ -19,7 +19,7 @@ body{
 .link{text-decoration: none; }
 p,h1,h2,h3,h4,h5,h6 {margin: 0;}
 ul,ol{margin: 0;   padding: 0  ;}
-img{display: block;}
+/* img{display: block;} */
 
 /* Main menu */
 .main-menu {
@@ -67,7 +67,7 @@ img{display: block;}
 .flex-container-portfolio{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     column-gap: 24px;
     row-gap: 48px;
     border-top: none;
@@ -317,7 +317,7 @@ margin: auto;
     /* margin-left: 8px; */
 } 
 .main-img{
-    display: block; 
+    /* display: block;  */
     max-width: 100%;
      height: auto;
      flex-basis: calc((100% - 48px) / 3);
